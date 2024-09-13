@@ -1,0 +1,326 @@
+/*=====  Harold Nixon CodeKY Pet Shop ========*/
+
+/* Colors
+    #003964  #39B173  #F7B129
+    #074980  #F88824  #EFF3F7
+    #3F9CE0  #F85C62  #222222
+*/
+
+html, p, span, {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #F1F1F1;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+a:visited {
+    color: #F1F1F1;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+a:focus {
+    
+}
+a:hover, a:active {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1, h2, h4, h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+button {
+
+}
+
+.hero-button {
+    background-color: #003964;
+    font-size: large;
+    color: #F1F1F1;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding: 10px 50px;
+}
+
+span.test > h1, span.test > p {
+    text-align: center;
+}
+
+#test-h1 {
+
+}
+
+.hero-button:hover {
+    background-color: #074980;
+    color: #ffffff;
+}
+
+#search-button-top {
+
+}
+
+li {
+
+}
+
+ul#navigation li a {
+    color: #F1F1F1;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-weight: 800;
+}
+
+ul#navigation li a:hover {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.page-width {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+.hero-content h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 48px;
+    color: #F1F1F1;
+    line-height: 1;
+    margin: auto 0;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.hero {
+    height: 100%;
+
+}
+
+#header-container {
+    background-color: #074980; 
+    height: 160px;
+    width: 100%;
+}
+
+.hero-container {
+    background-color: #F7B129; 
+    min-height: 500px;
+    width: 100%;
+    background-image: url("../photos/puppy-hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 85% bottom 35%;
+}
+
+nav {
+    justify-content: center;
+}
+
+#top-strip {
+    background-color: #003964;
+    height: 40px;
+    width: 100%;
+}
+
+#top-strip-text {
+    background-color: #003964;
+    height: 40px;
+    width: 100%;
+    margin-top: -40px;
+}
+
+.toptext {
+    color: #F1F1F1;
+    margin: 10px;
+}
+
+.toptext-right {
+    float: right;
+}
+
+.toptext-left {
+    background-image: url("../photos/menu-icon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    fill: #ffffff;
+    float: left;
+}
+
+#logo {
+    height: 100%;
+    display: flex;
+    float: left;
+}
+
+#logosvg {
+    height: 100px;
+    padding: 10px 8px 8px 10px;
+}
+
+#search-box {
+    float: right;
+    margin: 40px;
+}
+
+#navigation {
+    justify-content: center;
+}
+
+.categories {
+    height: 1100px;
+    background-color: #ffffff;
+}
+
+.about {
+    height: 618px;
+    background-color: #074980;
+}
+
+.recommendations {
+    height: 888px;
+    background-color: #ffffff;
+}
+
+.about-paw-city {
+    height: 620px;
+    background-color: #F85C62;
+}
+
+.testimonials {
+    height: 850px;
+    background-color: #ffffff;
+}
+
+.contact {
+    height: 810px;
+    background-color: #8560a6; 
+}
+
+footer {
+    height: 100px;
+    background-color: #074980;
+}
+
+/*=========== Menu Nav ======================*/
+#menu-dogs>a, #menu-cats, #menu-birds, #menu-fish, #menu-reptiles, {
+    color: #F1F1F1;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#menu-dogs {
+    background-color: #f85c62;
+    padding: 20px 40px;
+    border-bottom-left-radius: 30px;
+}
+
+#menu-cats {
+    background-color: #8560a6;
+    padding: 20px 40px;
+}
+
+#menu-birds {
+    background-color: #f88818;
+    padding: 20px 40px;
+}
+
+#menu-fish {
+    background-color: #3f9ce0;
+    padding: 20px 40px;
+}
+
+#menu-reptiles {
+    background-color: #39b173;
+    padding: 20px 40px;
+    border-bottom-right-radius: 30px;
+}
+
+
+
+/*======== Responsive ========================*/
+
+@media only screen and (min-width: 320px) {
+
+
+
+}
+
+@media only screen and (min-width: 480px) {
+
+
+
+}
+
+@media only screen and (min-width: 768px) {
+	
+    .projects-content {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .main-nav {
+        display: block;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    ul#navigation {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul#navigation li a {
+        color: #F1F1F1;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        padding: 20px 30px;
+    }
+    
+    ul#navigation li a:hover {
+        color: #ffffff;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        padding: 20px 30px;
+    }
+
+}
+
