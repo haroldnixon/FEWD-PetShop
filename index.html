@@ -41,8 +41,11 @@
                     <li id="menu-reptiles" class="menu"><a href="#">Reptiles</a></li>
                 </ul>
             </nav>
-
-            <div class="hero"><h1>The Best Care For Your Little One</h1>
+            <div class="hero-content"></div>
+            <div class="hero">
+                
+                <div class="hero-content"><h1>The Best Care For Your Little One</h1></div>
+                
                 
             <p>The Paws City Pet Supply Co. needs a new website (home page) built with the newest mobile, tablet and laptop/desktop browsers in mind. There are several sections on the hompage. Including:
 
@@ -82,7 +85,8 @@
                 - Best efforts at basic accessibility (alt tags, colors, sizes, etc...) 
                 
                 </p>
-                <button class="hero-button">Schedule</button>
+                <div class="hero-content"><button class="hero-button">Schedule</button></div>
+\
             </div>
 
         </div>
@@ -120,7 +124,44 @@
                 <p>We're Happy With Each Review You Leave! (Except the Bad Ones)</p>
             </span>
             
+                                        <!-- Slideshow container -->
+                    <div class="slideshow-container">
 
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade slideBOX">
+                            <div class="numbertext">
+                                <div class="testDIV"><p>"D'oh! A huge thank you to Paw's City for taking such great care of Santa's Little Helper! You guys treated him like family, and now he's happier than ever (even though he still steals my donuts). We really appreciate everything! If you want your pet to be pampered, Paw's City is the place to go. Woo-hoo!" <br>– Homer Simpson</p></div>
+                                <div class="testDIV"><img src="assets/photos/slide1.png" class="HNslide"></div>
+                            </div>
+                        </div>
+                    
+                        <div class="mySlides fade slideBOX">
+                            <div class="numbertext">
+                                <div class="testDIV"><p>"Oh, I just want to say a big thank you to Paw's City for taking such wonderful care of Snowball II! She came back so happy and calm, I could hardly believe it. Your staff was so kind and gentle with her, and it made such a difference. I feel so comfortable knowing she’s in such good hands. Thank you again, Paw's City!" <br>– Marge Simpson</p></div>
+                                <div class="testDIV"><img src="assets/photos/slide2.png" class="HNslide"></div>
+                            </div>
+                        </div>
+                    
+                        <div class="mySlides fade slideBOX">
+                            <div class="numbertext">
+                                <div class="testDIV"><p>"Yo, thanks to Paw's City for taking awesome care of Blinky, my three-eyed fish! You guys made sure he was totally chill while I was away, and he looks better than ever (even with the extra eye)! You rock, Paw's City! I’ll definitely be back next time I need someone to watch him. Cowabunga!" <br>– Bart Simpson</p></div>
+                                <div class="testDIV"><img src="assets/photos/slide3.png" class="HNslide"></div>
+                            </div>
+                        </div>
+                    
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+                    
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+            
         </div>
     </section>
 
@@ -132,6 +173,6 @@
                 <p class="toptext toptext-left">&#169; Copyright YEAR Paws City Supply Co.</p>
                 <p class="toptext toptext-right">Privacy Policy</p>
     </footer>
-
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
